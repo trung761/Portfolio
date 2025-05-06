@@ -1,0 +1,48 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100% - 80px);
+    padding: 0 10%;
+  }
+  
+  .main-left {
+    flex: 1;
+  }
+  
+  .intro {
+    color: yellow;
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 36px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .role {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .description {
+    font-size: 16px;
+    color: lightgray;
+  }
+  
+  .main-right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .main-right img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    background: white;
+  }
+  
