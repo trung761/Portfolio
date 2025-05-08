@@ -1,10 +1,11 @@
 import React from 'react';
 import '../style/portfolio.css'; 
-import project1 from '../assets/portfolio-1.jpg';
-import clinic from '../assets/clinic.png'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import portfolio from '../assets/portfolio-1.jpg';
+import clinic from '../assets/clinic.jpg';
 
-import{faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import{faArrowUpRightFromSquare} from '@fortawesome/free-solid-svg-icons';
 
 
 
@@ -26,6 +27,16 @@ const projects2 = [
         link: "https://github.com/trung761/Clinic"
     },
 ];
+const projects3 = [
+    {
+        title: "Educational News & Admission Blog",
+        description: "Blog-style website for posting educational and university admission news and updates.",
+        tech: "Laravel, JS, Bootstrap 4",
+        github: "https://github.com/trung761/Web_pdt",
+        link: "https://github.com/trung761/Web_pdt"
+    },
+    
+];
 
 const PortfolioLayout = () => {
     return (
@@ -39,7 +50,7 @@ const PortfolioLayout = () => {
                         <div className="portfolio-card" key={index}>
                             {/* hình project */}
                             <div className="img" style={{borderRadius: '10px'}}>
-                                <img src={project1} alt={project.title} className="portfolio-image" style={{borderRadius: '10px'}} />
+                                <img src={portfolio} alt={project.title} className="portfolio-image" style={{borderRadius: '10px'}} />
                             </div>     
                              {/* Nơi chứa content */}
                             <div className="portfolio-content">
@@ -124,11 +135,11 @@ const PortfolioLayout = () => {
                 </div>
                 <div className="portfolio-grid">
                     {/* truyền project vào */}
-                    {projects.map((project, index) => (
+                    {projects3.map((project, index) => (
                         <div className="portfolio-card" key={index}>
                             {/* hình project */}
                             <div className="img" style={{borderRadius: '10px'}}>
-                                <img src={project1} alt={project.title} className="portfolio-image" style={{borderRadius: '10px'}} />
+                                <img src={portfolio} alt={project.title} className="portfolio-image" style={{borderRadius: '10px'}} />
                             </div>     
                              {/* Nơi chứa content */}
                             <div className="portfolio-content">

@@ -50,10 +50,13 @@
   border-radius: 10px;
   margin-bottom: 1rem;
 }
-
+.portfolio-content{
+  padding: 5px;
+}
 .portfolio-content h3 {
   margin: 0.5rem 0;
   font-size: 1.2rem;
+ 
 }
 
 .portfolio-content p {
@@ -69,6 +72,8 @@
 .portfolio-tech {
   color: #F0DA7A;
   font-weight: bold;
+  position: relative;
+
 }
 
 
@@ -78,19 +83,22 @@
 
 .github{
   fill: white;
+  position: relative;
+ 
 }
 .links{
+  position: relative;
   color: #ccc;
   fill:whitesmoke;
-  width: 32px;
-  height: 32px;
+  top: 2px;
   margin-left: 10px;
+ 
+
 }
 
 .row{
   display: flex;
-  justify-content: space-around;
-  gap:1rem;
-  padding: 5px;
+  padding: 0 30px;
+  justify-content: space-between;
 }
 
