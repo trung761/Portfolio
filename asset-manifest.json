@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.44057e9a.css",
+    "main.js": "/Portfolio/static/js/main.1455ffcf.js",
+    "static/js/453.56f46472.chunk.js": "/Portfolio/static/js/453.56f46472.chunk.js",
+    "static/media/clinic.png": "/Portfolio/static/media/clinic.5aa6cf4f3e70a0958382.png",
+    "static/media/avata.jpeg": "/Portfolio/static/media/avata.7dc6b13892f97ac60dc4.jpeg",
+    "static/media/portfolio-1.jpg": "/Portfolio/static/media/portfolio-1.c48050923c10059a019a.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.44057e9a.css.map": "/Portfolio/static/css/main.44057e9a.css.map",
+    "main.1455ffcf.js.map": "/Portfolio/static/js/main.1455ffcf.js.map",
+    "453.56f46472.chunk.js.map": "/Portfolio/static/js/453.56f46472.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44057e9a.css",
+    "static/js/main.1455ffcf.js"
+  ]
+}
